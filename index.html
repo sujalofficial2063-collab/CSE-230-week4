@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <main>
+      <section class="slider" aria-label="Featured images">
+        <div class="slider__viewport">
+          <div class="slider__track">
+            <article class="slide"><img src="assets/mountain.jpg" alt="Mountain range reflected in a calm lake"></article>
+            <article class="slide"><img src="assets/beach.jpg" alt="Turquoise ocean meeting a sandy beach"></article>
+            <article class="slide"><img src="assets/ocean.jpg" alt="Ocean waves along the coast"></article>
+            <article class="slide"><img src="assets/valley.jpg" alt="Green valley with a small cabin"></article>
+          </div>
+          <button class="slider__control slider__control--previous" type="button" aria-label="Previous image">&#10094;</button>
+          <button class="slider__control slider__control--next" type="button" aria-label="Next image">&#10095;</button>
+        </div>
+        <div class="slider__dots"></div>
+      </section>
+    </main>
+    <script src="slider.js"></script>
+  </body>
+</html>
